@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/empty-search",
+      "handler": "empty-search.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/empty-search",
+      "handler": "empty-search.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/empty-search",
+      "handler": "empty-search.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

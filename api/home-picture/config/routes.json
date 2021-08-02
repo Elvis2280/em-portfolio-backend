@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-picture",
+      "handler": "home-picture.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-picture",
+      "handler": "home-picture.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-picture",
+      "handler": "home-picture.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

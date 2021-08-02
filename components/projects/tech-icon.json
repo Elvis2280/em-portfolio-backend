@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_projects_tech_icons",
+  "info": {
+    "name": "tech_icon",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "Tech_name": {
+      "type": "string"
+    },
+    "Svg_icon_path": {
+      "type": "text"
+    }
+  }
+}
