@@ -30,7 +30,7 @@
     },
     "content": {
       "type": "richtext",
-      "unique": true,
+      "unique": false,
       "required": true
     }
   }
